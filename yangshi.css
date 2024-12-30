@@ -1,0 +1,357 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: black;
+}
+.logo{
+  width: 300px;
+  height: 70px;
+}
+button{
+  cursor: pointer;
+}
+.setting1{
+  position: relative;
+  bottom: 2px;
+  left: 5px;
+}
+section a:hover{
+  border-bottom: 1px solid black;
+}
+.box1 li{
+  text-indent: -10px;
+  white-space: nowrap;
+}
+.box1 ul{
+  padding-left: 25px;
+}
+.box2 li{
+  text-indent: -10px;
+  white-space: nowrap;
+}
+.box2 ul{
+  padding-left: 25px;
+}
+body {
+  background-image: url("乡村路，景观，瑞士，诺瓦特尔湖，5k壁纸_5120x3200[10wallpaper.com].jpg");
+  width: 100%;
+  height: 1200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: crisp-edges;
+}
+header{
+
+}
+.box li a:hover{
+  border-bottom: 1px solid black;
+}
+nav{
+  background-color: aqua;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+nav h1 {
+  position: relative;
+  left: 20px;
+  line-height: 80px;
+}
+ header ul {
+    display: flex;
+   position: absolute;
+   top: 0;
+   right: 5vw;
+   line-height: 60px;
+
+}
+ header li {
+   height: 50px;
+   width: 90px;
+   list-style-type: none;
+   margin-right: 4vw;
+   font-size: 20px;
+   padding: 12px;
+ }
+nav a:hover {
+  border-radius: 8px;
+  border: 2px solid gray;
+}
+a {
+  text-decoration: none;
+}
+.resou a{
+  color: #9198e5;
+}
+.resou a:hover{
+  border-bottom: 1px solid black;
+  border-color: red;
+}
+.setting1:hover{
+  border-bottom: 1px solid black;
+}
+ #denglu {
+   border-radius: 15px;
+   border-style: none;
+   background-color: orangered;
+    width: 90px;
+   height: 50px;
+   cursor: pointer;
+   margin-top: 15px;
+ }
+ .he1 {
+   width: 400px;
+   border-radius: 8px;
+   border-style: none;
+   float: left;
+   display: flex;
+ }
+ .he2 {
+   width: 400px;
+   border-radius: 8px;
+   border-style: none;
+   display: flex;
+ }
+ .he3 {
+   width: 400px;
+   border-radius: 8px;
+   border-style: none;
+   display: flex;
+ }
+ .he1 a{
+   color: orangered;
+ }
+ .he2 a{
+   color: orangered;
+ }
+ .he3 a{
+   color: orangered;
+ }
+ .tianya{
+   line-height: 40px;
+   display: block;
+   width: 1142px;
+   height: 50px;
+   background-color: rgba(211,211,211,0.5);
+   text-align: left;
+
+ }
+ p{
+   text-align: center;
+   display: block;
+   height: 30px;
+   background-color: gray;
+
+ }
+ div span {
+   margin-left: 10px;
+ }
+ img {
+   text-align: center;
+   height:80px;
+   width: 80px;
+   float: left;
+
+ }
+ main {
+   width: 60%;
+   height: 700px;
+   background-color: white;
+   margin-left:20vw;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   top: 120px;
+   border: 2px solid blue;
+ }
+  .box{
+    width:250px;
+    height:700px;
+    float: right;
+    background-color: #9198e5;
+    position: relative;
+    right: 95px;
+    bottom: 583px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    overflow: hidden;
+    font-size: 15px;
+ }
+  section{
+    width:99%;
+    height: 120px;
+    display: flex;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+ }
+  .zi {
+    background-color: purple;
+    width: 80px;
+    height: 80px;
+    border-style: none;
+    border-radius: 12px;
+    margin-top: auto; margin-bottom: auto;
+  }
+
+  .lan{
+    background-color: gray;
+    width: 80px;
+    height: 80px;
+    border-style: none;
+    border-radius: 12px;
+    margin-top: auto; margin-bottom: auto;
+  }
+  .fen{
+    background-color: pink;
+    width: 80px;
+    height: 80px;
+    border-style: none;
+    border-radius: 12px;
+    margin-top: 10px
+    position:relative;
+  }
+.midd
+{
+  border-bottom: 2px dashed gray;
+  border-top: 2px dashed gray;
+}
+.top{
+  border-top: 2px dashed gray;
+}
+.box1{
+  height:400px ;
+}
+.box2{
+  height: 400px;
+}
+#search{
+  height: 20px;
+  position: relative;
+  bottom: 5px;
+  width: 450px;
+  left: 8px;
+}
+select{
+  width: 90px;
+  position: relative;
+  bottom: 5px;
+  left: 5px;
+}
+.resou{
+  position: relative;
+  bottom: 5px;
+  padding: 8px;
+}
+footer{
+  font-size: 15px;
+  color: gold;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.juzuo{
+  float: left;
+}
+.juyou{
+  float: right;
+}
+.lastbox{
+  width:60%;
+  height: 45px;
+  position: relative;
+  top: 123px;
+  left: 385px;
+  background-color: rgba(211,211,211,0.8);
+  border: 1px solid gray;
+  line-height: 45px;
+}
+.lastbox a:hover{
+  border-bottom: 1px solid black;
+}
+#sou{
+  position: relative;
+  top: 4px;
+}
+.zhuti{
+
+  width: 800px;
+  background-color: #b3d4fc;
+  position:relative;
+  top:150px;
+  left: 580px;
+  text-align: center;
+}
+.content{
+  background-color: #b3d4fc;
+  width: 800px;
+  height:380px;
+  position: relative;
+  left: 580px;
+  top:155px;
+  display: flex;
+  overflow: hidden;
+
+}
+.cebian{
+  display: flex;
+  justify-content: space-between;
+}
+.cebian span{
+  padding: 0;
+  margin: 0;
+}
+.maodian{
+  width: 800px;
+  height: 380px;
+  flex-shrink: 0;
+}
+.cebian span a{
+  color: red;
+}
+#content1{
+  background-image: url("img/环太平洋.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#content2{
+  background-image: url("img/肖申克的救赎.webp");
+  background-size: 800px  380px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#content3{
+    background-image: url("img/利威尔图片.jpg");
+    background-size: 800px 380px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#content4{
+  background-image: url("img/wukong.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#content5{
+  background-image: url("img/双城之战2 幸存者 杰斯.jpeg");
+  background-size: 800px 380px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#content6{
+  background-image: url("img/黑神话悟空.jpg");
+  background-size: 800px 380px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#zuoyou{
+  margin-left: 65px;
+  margin-right: 45px;
+}
+
